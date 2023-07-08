@@ -14,6 +14,7 @@ Before getting started with the API, make sure you have the following software a
 1. Download or clone the source code of this project.
 
 ```git clone https://github.com/ushio0107/todo-api.git```
+
 2. Create a new database in MongoDB.
 3. Edit the config.go file and update the database connection URL with your MongoDB configuration.
 
@@ -21,7 +22,7 @@ Before getting started with the API, make sure you have the following software a
 const mongoDBUrl = "mongodb://localhost:27017"
 const mongoDBName = "your_database_name"
 ```
-4.Build and run the API.
+4. Build and run the API.
 ```
 go build
 ./todo-api
